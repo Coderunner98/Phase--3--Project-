@@ -43,6 +43,6 @@ The results of our model indicated that most of the crashes were Preventable. By
 
 ## Recommendation
 
-We recommend investing in fixing defective roads. This was the bigger contributor to less preventable crashes, followed by poor visibility, and vehicle defects. Our largest age range of drivers involved in crashes is 20-39. The biggest non-driver preventable issue this cohort faced was also defective roads. We discovered in mapping road defects that the northern side of Chicago has more crashes caused by this than the southern side. We recommend fixing up road defects in northern Chicago. We also suggest a driver education campaign targeting a younger audience between ages 20-40. We could potentially incentivize this cohort. Lastly, we could target specific hot spot areas that are known to be a magnet for crashes.
+We recommend investing in fixing defective roads. This was the bigger contributor to less preventable crashes, followed by poor visibility, and vehicle defects. Our largest age range of drivers involved in crashes is 20-39. The biggest non-driver preventable issue this cohort faced was also defective roads. We discovered in mapping road defects that the northern side of Chicago has more crashes caused by this than the southern side. We recommend fixing up road defects in northern Chicago. We also suggest a driver education campaign targeting a younger audience between ages 20-39. We could potentially incentivize this cohort. Lastly, we could target specific hot spot areas that are known to be a magnet for crashes.
 
 
