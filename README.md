@@ -3,8 +3,7 @@
 Our stakeholder is a Vehicle Saftey board from Chicago, they would like us to analyze the crashes that happened in the city from the year 2016-2020 and build models that will contribute to coming up with conclusions as to why this crashes took place and how them as an organization can prevent it in the future. We used an iterative modeling approach in our analysis and incorporated several classification models to see if we could find what crashes were preventable. Our recommendations include investing in driver education for certain age groups and fixing certain road conditions that could cause a crash.
 
 ## Business Understanding
-Our stakeholder is the Vehicle Safety Board of Chicago. They are launching a new campaign to reduce car crashes. Our task is to build an inferential model to find out which crashes were preventable and not. We labeled ‘Preventable’ as crashes that could have easily been avoided. Not following traffic laws and negligent driving would fall under this category. ‘Less Preventable’ are crashes that would require a substantial amount of money, time, and labor to fix. Bad road conditions, vision obscurity, and bad weather conditions would fall under this category.
-Our stakeholder, the Vehicle Safety Board, has the resources to focus on large projects. Therefore, we to focused on 'Less Preventable' crashes as these projects were not related to human error. We also wanted to target the age groups most involved with crashes.
+Our stakeholder is the Vehicle Safety Board from Chicago that wants to know if they should spend more funding in drivers education or fixing roads. They want to determine whether a crash is preventable and how to allocate funds to limit the number of crashes in order to present it to the Vehicle Safety Board committee of Chicago.It is up to us to give a conlusive analysis in order to make their decision as accurate as possible.
 
 
 ## Data Understanding
