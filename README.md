@@ -7,7 +7,18 @@ Our stakeholder is the Vehicle Safety Board from Chicago that wants to know if t
 
 
 ## Data Understanding
-Our task is to build an inferential model to find out which crashes were preventable and not. We labeled ‘Preventable’ as crashes that could have easily been avoided. Not following traffic laws and negligent driving would fall under this category. ‘Less Preventable’ are crashes that would require a substantial amount of money, time, and labor to fix. Bad road conditions, vision obscurity, and bad weather conditions would fall under this category as well
+Our task is to build an inferential model to find out which crashes were preventable and not. We labeled ‘Preventable’ as crashes that could have easily been avoided. Not following traffic laws and negligent driving would fall under this category. ‘Less Preventable’ are crashes that would require a substantial amount of money, time, and labor to fix. Bad road conditions, vision obscurity, and bad weather conditions would fall under this category as well.
+
+## Data Cleaning
+
+Within the Crashes dataset, we determined that there were a lot of columns that did not contribute any value to the stakeholder's business problem, which is identifying causes of a car crash. Information such as injuries may tell us the severity of the crash, but not a clue on to how the crash occured. Same applies to when the police were notified and time it took place. Columns such as 'INTERSECTION_RELATED_I', 'NOT_RIGHT_OF_WAY_I' may contain relevant information, however they hold too many null values for us to fill, so we decided to drop them. Columns such 'STREET_DIRECTION' and 'ALIGNMENT' tells us the road shape, but since it is not feasible to change any of these roads - meaning they will always have turns and a direction - so we also left these columns from our final dataset.
+
+Before saving our final modeling data to a csv, we ran a heatmap to see if there are any concerning correlations.
+
+![image](https://user-images.githubusercontent.com/91674285/182371251-d950ad4d-41e7-4e07-a699-1752e00740bc.png)
+
+Rrom our heatmap we observed that BAD_WEATHER and BAD_ROAD_CONDITIONS are highly correlated with each other. To not overfit to our data, we dropped BAD_WEATHER from our dataset.
+
 
 ## Data Preparation
 We combined 3 different datasets that we found on the City of Chicago website. Those datasets were crashes, people, and vehicles.
@@ -42,6 +53,8 @@ The results of our model indicated that most of the crashes were Preventable. By
 
 ## Recommendation
 
-We recommend investing in fixing defective roads. This was the bigger contributor to less preventable crashes, followed by poor visibility, and vehicle defects. Our largest age range of drivers involved in crashes is 20-39. The biggest non-driver preventable issue this cohort faced was also defective roads. We discovered in mapping road defects that the northern side of Chicago has more crashes caused by this than the southern side. We recommend fixing up road defects in northern Chicago. We also suggest a driver education campaign targeting a younger audience between ages 20-39. We could potentially incentivize this cohort. Lastly, we could target specific hot spot areas that are known to be a magnet for crashes.
+1. We recommend investing in fixing defective roads. This was the bigger contributor to less preventable crashes, followed by poor visibility, and vehicle defects. 2. Our largest age range of drivers involved in crashes is 20-39. The biggest non-driver preventable issue this cohort faced was also defective roads. We discovered in mapping road defects that the northern side of Chicago has more crashes caused by this than the southern side, hence they Vehicle board of Chicago should focus efforts and funds more on the Northern side of the city because crashes are more likely to take place there.
+3. We recommend fixing up road defects in northern Chicago. We also suggest a driver education campaign targeting a younger audience between ages 20-39. We could potentially incentivize this cohort. 
+4. Lastly, we could target specific hot spot areas that are known to be a magnet for crashes.
 
 
