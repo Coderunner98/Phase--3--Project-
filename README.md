@@ -17,7 +17,7 @@ Before saving our final modeling data to a csv, we ran a heatmap to see if there
 
 ![image](https://user-images.githubusercontent.com/91674285/182371251-d950ad4d-41e7-4e07-a699-1752e00740bc.png)
 
-Rrom our heatmap we observed that BAD_WEATHER and BAD_ROAD_CONDITIONS are highly correlated with each other. To not overfit to our data, we dropped BAD_WEATHER from our dataset.
+From our heatmap we observed that BAD_WEATHER and BAD_ROAD_CONDITIONS are highly correlated with each other. To not overfit to our data, we dropped BAD_WEATHER from our dataset due to this.
 
 
 ## Data Preparation
