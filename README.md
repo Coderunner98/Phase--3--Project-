@@ -17,7 +17,7 @@ Before saving our final modeling data to a csv, we ran a heatmap to see if there
 
 ![image](https://user-images.githubusercontent.com/91674285/182371251-d950ad4d-41e7-4e07-a699-1752e00740bc.png)
 
-From our heatmap we observed that BAD_WEATHER and BAD_ROAD_CONDITIONS are highly correlated with each other. To not overfit to our data, we dropped BAD_WEATHER from our dataset due to this.
+From our heatmap we observed that BAD_WEATHER and BAD_ROAD_CONDITIONS are highly correlated with each other. In order to not overfit our data, we dropped BAD_WEATHER from our dataset due to this reason.
 
 
 ## Data Preparation
@@ -44,7 +44,7 @@ Lastly, we used a XGBoost classifier with GridSearchCV to find the best model. T
 
 ![image](https://user-images.githubusercontent.com/91674285/182030844-22b57791-994b-4777-82d8-0b2716147e70.png)
 
-## Regression Results
+## Classification Results
 Our best model had an accuracy score of 75%. It had a precision score of 63%. Our precision score is out of all the times the model said it was a less preventable crash, how many times were actually a less preventable crash. Iterative modeling did well to improve precision. By directing the Vehicle Safety Board to certain hotspots of defective roads, we could make a substantial and immediate impact on accidents.
 
 The results of our model indicated that most of the crashes were Preventable. By involving drivers with driver education, we could address some of these preventable crashes. It would be particularly prudent to focus on driver education for ages 20-39. This would be an efficient and effective use of funds for the Vehicle Safety Board of Chicago.
