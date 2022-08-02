@@ -53,11 +53,11 @@ The results of our model indicated that most of the crashes were Preventable. By
 
 1. We recommend investing in fixing defective roads. This was the bigger contributor to less preventable crashes, followed by poor visibility, and vehicle defects which is backed by our final model that indicates 75% of crashes in the city were preventable.
 
-2. We discovered in mapping road defects that the northern side of Chicago has more crashes caused by this than the southern side, we recommend that they Vehicle board of Chicago should focus efforts and funds more on the Northern side of the city because crashes are more likely to take place there.
+2. We discovered in mapping road defects that the northern side of Chicago has more crashes caused by this than the southern side, we recommend that they Vehicle board of Chicago should focus efforts and funds more on the Northern side of the city because crashes are more likely to take place there. This is supported by our model that indicates 25% of road accidents where caused by 'less preventable' but efforts could on road defects to reduce accidents.
 
-3. We recommend fixing up road defects in northern Chicago. We also suggest a driver education campaign targeting a younger audience between ages 20-39. We could potentially incentivize this cohort. 
+3. We recommend fixing up road defects in northern Chicago. We also suggest a driver education campaign targeting a younger audience between ages 20-39. We could potentially incentivize this cohort. This is backed up by our analysis that indicates this age group has the highest number of crashes in the city.
  
-4. Lastly, we could target specific hot spot areas that are known to be a magnet for crashes.
+4. Lastly, we could target specific hot spot areas that are known to be a magnet for crashes. This is supported by our analysis that includes road defects as a major cause of accidents and comprises of 25% of 'less preventable' accidents.
 
 ## Conclusion
 From our analysis we have concluded that 75% of the crashes in Chicago city were very much preventable and preventative measure can be taken to avoid crashes in the future our recommendations based on our analysis were driver education campaign for younger audiences ages of between 20-39 and fixing of defected road in the city which contributed to crashes as well.
