@@ -51,7 +51,7 @@ The results of our model indicated that most of the crashes were Preventable. By
 
 ## Recommendation
 
-1. We recommend investing in fixing defective roads. This was the bigger contributor to less preventable crashes, followed by poor visibility, and vehicle defects.
+1. We recommend investing in fixing defective roads. This was the bigger contributor to less preventable crashes, followed by poor visibility, and vehicle defects which is backed by our final model that indicates 75% of crashes in the city were preventable.
 
 2. We discovered in mapping road defects that the northern side of Chicago has more crashes caused by this than the southern side, we recommend that they Vehicle board of Chicago should focus efforts and funds more on the Northern side of the city because crashes are more likely to take place there.
 
