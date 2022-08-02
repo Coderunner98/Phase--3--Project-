@@ -59,4 +59,12 @@ The results of our model indicated that most of the crashes were Preventable. By
  
 4. Lastly, we could target specific hot spot areas that are known to be a magnet for crashes.
 
+## Conclusion
+From our analysis we have concluded that 75% of the crashes in Chicago city were very much preventable and preventative measure can be taken to avoid crashes in the future our recommendations based on our analysis were driver education campaign for younger audiences ages of between 20-39 and fixing of defected road in the city which contributed to crashes as well.
+Funds and efforts should be prioritized to those areas based on our analysis and predictive models.
+
+
+
+
+
 
